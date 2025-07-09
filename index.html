@@ -1,16 +1,43 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intitial-scale=1" />
     <link rel="stylesheet" href="index.css">
+    <title>title</title>
 </head>
 <body>
-    <h1>FWNE'S CLASSPECT GENERATOR</h1>
-    <p id="classpect"></p>
-    <p id="desc"></p>
-    <button id="btn" onClick="genClasspect()">button</button>
+    <div class="image">
+        <p id="image">meow (pretend this is an image.)</p>
+    </div>
+    <div class="song">
+        <h1 id="title">Attack for cannibalmachine</h1>
+        <p id="artist">enjoy pal</p>
+        <div id="discography">
+            <ol>
+                <li><button onclick="wap()">We Appreciate Power - Grimes, HANA</button></li>
+                <li><button onclick="wybi()">Would You be Impressed? - Streetlight Manifesto</button></li>
+                <li><button onclick="og()">Original (Remastered) - Leftfield</button></li>
+                <li><button onclick="hfs()">Holy Fucking Shit: 40,000 - Have A Nice Life</button></li>
+                <li><button onclick="tpd()">The Perfect Drug - Nine Inch Nails</button></li>
+                <li><button onclick="iky()">I Know You - Blake Neely</button></li>
+                <li><button onclick="itv()">Into The Void - Nine Inch Nails</button></li>
+                <li><button onclick="igbbts()">Its Getting Boring By The Sea - Blood Red Shoes</button></li>
+                <li><button onclick="e6()">E6 (Sublime beyond loss) - The Caretaker</button></li>
+                <li><button onclick="fl()">Fur Lined - How To Destroy Angels</button></li>
+                <li><button onclick="dptm()">Don't Preach to Me - The Skallywags</button></li>
+                <li><button onclick="es()">Evaporating Sun - Mr.Kitty</button></li>
+            </ol>
+        </div>
+        <audio id="player" src=""></audio>
+        <div style="text-align: center;"> 
+            <button id="audio-ctrl" onclick="document.getElementById('player').play()">Play</button> 
+            <button id="audio-ctrl" onclick="document.getElementById('player').pause()">Pause</button> 
+            <button id="audio-ctrl" onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+            <button id="audio-ctrl" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+        </div>
+    </div>
+    <script src="index.js"></script>
 
-
-    <footer>
-        <script src="index.js"></script>
-    </footer>
 </body>
 </html>
