@@ -59,6 +59,7 @@ function dptm(){
     player.src = "dont preach to me.mp3";
     title.innerHTML = "Don't Preach to Me";
     artist.innerHTML = "The Skallywags";
+    image.src = "bw ver.png"
 }
 function es(){
     player.src = "evaporating sun.mp3";
